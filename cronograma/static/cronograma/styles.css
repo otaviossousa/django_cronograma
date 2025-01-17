@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ff914c;
+    padding: 1.5rem;
+}
+
+h1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    height: 30rem;
+    text-align: center;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card h2{
+    font-size: 1.5rem;
+    padding: 40px;
+}
+
+.dia{
+    background-color: #ffd97a;
+}
+
+.dia h2{
+    padding: 0.5rem;
+}

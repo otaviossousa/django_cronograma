@@ -1,0 +1,12 @@
+{% include "global/partials/head.html" %}
+
+<h1>Cronograma blablabla</h1>
+
+<div class="card-container">
+    {% for event in events %}
+        {% include "global/partials/eventblock.html" %}
+    {% endfor %}
+</div>
+    
+</body>
+</html>
